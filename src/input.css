@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Roboto:ital,wght@1,500&display=swap');
+:root{
+    --primaryfont: 'Roboto', sans-serif;
+}
+
+
+
+/* body {
+    font-family: 'Roboto';
+} */
+
+.bg-gradient{
+    @apply bg-gradient-to-r from-gradient1 via-gradient2  to-gradient3 
+}
+.btn-block{
+    @apply bg-[#1D2130]  rounded-sm  py-3 px-6
+}
+
+.heading-block{
+    @apply   text-headingColor  font-[Roboto] font-extrabold 
+}
+.btn-block{
+    @apply text-white font-bold
+
+}
+
+.header{
+    @apply flex justify-between gap-5 px-10 items-center relative
+}
+/* .navigation{
+    @apply 
+} */
+
+
+.navigation-links{
+    @apply flex gap-5
+}
+
+.hero-section{
+    @apply py-[5rem] font-extrabold flex  justify-center items-center gap-[5rem] 
+}
+
+.hero-section--product{
+    @apply  w-[85%] justify-between
+}
+
+.text-gradient{
+    @apply bg-gradient-to-r from-textGradient1 to-textGradient2 inline-block text-transparent bg-clip-text text-sm font-extrabold
+}
+
+.solutions{
+    @apply flex flex-col gap-3  py-5 px-5 justify-between
+}
+
+.solutions__title{
+    @apply text-headingColor font-bold text-2xl
+}
+.solutions__description{
+    @apply text-paraColor  text-[13px]
+}
+.solutions__icon{
+    @apply w-[2vw]
+
+}
+
+
+.btn-block--white{
+    @apply  bg-white text-headingColor font-extrabold border border-2 rounded-md
+}
+
+.solutions--service{
+    @apply basis-[350px]
+}
+
+.analyze-sales{
+    @apply  flex justify-center w-full py-20
+} 
+
+.analyze-sales__wrapper{
+    @apply w-[84%] flex justify-between items-center px-0 
+}
+
+
+.analyze-sales__info{
+    @apply flex flex-col gap-5 basis-[30rem]
+
+}
+
+.analyze-sales__descr{
+    @apply flex flex-col basis-[26rem] gap-5
+}
+
+.analyze-sales__descr--product{
+    @apply basis-[500px]
+}
+/* .analyze-sales__descr--track{
+    @apply basis-[50rem] bg-yellow-500
+} */
+.analyze-sales__descr-one{
+    @apply flex gap-3 items-center
+}
+
+.analyze-sales__title{
+    @apply text-3xl w-3/4  text-headingColor font-[Roboto] font-extrabold
+}
+
+.analyze-sales__para{
+    @apply text-paraColor text-[12px] font-semibold
+}
